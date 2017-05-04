@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		45753E191E9AF8C700823315 /* XCTestTemp.h in Headers */ = {isa = PBXBuildFile; fileRef = 45753E171E9AF8C700823315 /* XCTestTemp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4583FA901EB9529E00F01AE0 /* XCTestTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583FA8F1EB9529E00F01AE0 /* XCTestTempTests.swift */; };
 		4583FA921EB9529E00F01AE0 /* XCTestTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45753E141E9AF8C700823315 /* XCTestTemp.framework */; };
 		45DA60271E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA60261E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift */; };
 		45DA602A1E9F02C900B7B5CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DA60291E9F02C900B7B5CE /* XCTest.framework */; };
@@ -28,7 +27,7 @@
 		45753E141E9AF8C700823315 /* XCTestTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45753E171E9AF8C700823315 /* XCTestTemp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestTemp.h; sourceTree = "<group>"; };
 		4583FA8D1EB9529E00F01AE0 /* XCTestTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4583FA8F1EB9529E00F01AE0 /* XCTestTempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestTempTests.swift; sourceTree = "<group>"; };
+		
 		45DA60261E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemporaryDirectoryTestCase.swift; sourceTree = "<group>"; };
 		45DA60291E9F02C900B7B5CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +84,7 @@
 		4583FA8E1EB9529E00F01AE0 /* XCTestTempTests */ = {
 			isa = PBXGroup;
 			children = (
-				4583FA8F1EB9529E00F01AE0 /* XCTestTempTests.swift */,
+				
 				
 			);
 			path = XCTestTempTests;
@@ -218,7 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4583FA901EB9529E00F01AE0 /* XCTestTempTests.swift in Sources */,
+				
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
