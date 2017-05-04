@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45753E191E9AF8C700823315 /* XCTestTemp.h in Headers */ = {isa = PBXBuildFile; fileRef = 45753E171E9AF8C700823315 /* XCTestTemp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4583FA901EB9529E00F01AE0 /* XCTestTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583FA8F1EB9529E00F01AE0 /* XCTestTempTests.swift */; };
 		4583FA921EB9529E00F01AE0 /* XCTestTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45753E141E9AF8C700823315 /* XCTestTemp.framework */; };
 		45DA60271E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DA60261E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift */; };
 		45DA602A1E9F02C900B7B5CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DA60291E9F02C900B7B5CE /* XCTest.framework */; };
@@ -26,8 +27,10 @@
 /* Begin PBXFileReference section */
 		45753E141E9AF8C700823315 /* XCTestTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45753E171E9AF8C700823315 /* XCTestTemp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestTemp.h; sourceTree = "<group>"; };
+		45753E181E9AF8C700823315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4583FA8D1EB9529E00F01AE0 /* XCTestTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		
+		4583FA8F1EB9529E00F01AE0 /* XCTestTempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestTempTests.swift; sourceTree = "<group>"; };
+		4583FA911EB9529E00F01AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45DA60261E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemporaryDirectoryTestCase.swift; sourceTree = "<group>"; };
 		45DA60291E9F02C900B7B5CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -76,7 +79,7 @@
 			children = (
 				45DA60261E9F026E00B7B5CE /* TemporaryDirectoryTestCase.swift */,
 				45753E171E9AF8C700823315 /* XCTestTemp.h */,
-				
+				45753E181E9AF8C700823315 /* Info.plist */,
 			);
 			path = XCTestTemp;
 			sourceTree = "<group>";
@@ -84,8 +87,8 @@
 		4583FA8E1EB9529E00F01AE0 /* XCTestTempTests */ = {
 			isa = PBXGroup;
 			children = (
-				
-				
+				4583FA8F1EB9529E00F01AE0 /* XCTestTempTests.swift */,
+				4583FA911EB9529E00F01AE0 /* Info.plist */,
 			);
 			path = XCTestTempTests;
 			sourceTree = "<group>";
@@ -217,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				
+				4583FA901EB9529E00F01AE0 /* XCTestTempTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +345,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks;
 				FRAMEWORK_VERSION = A;
-				
+				INFOPLIST_FILE = XCTestTemp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1percenter.XCTestTemp;
@@ -365,7 +368,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks;
 				FRAMEWORK_VERSION = A;
-				
+				INFOPLIST_FILE = XCTestTemp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1percenter.XCTestTemp;
@@ -379,7 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				
+				INFOPLIST_FILE = XCTestTempTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1percenter.XCTestTempTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,7 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				
+				INFOPLIST_FILE = XCTestTempTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1percenter.XCTestTempTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
