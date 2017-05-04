@@ -1,10 +1,7 @@
 //
 //  TemporaryDirectoryTestCase.swift
 //  XCTestTemp
-//
-//  Created by Roben Kleene on 9/25/14.
-//  Copyright (c) 2017 Roben Kleene. All rights reserved.
-//
+
 
 import XCTest
 

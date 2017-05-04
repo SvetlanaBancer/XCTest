@@ -1,10 +1,7 @@
 //
 //  XCTestTempTests.swift
 //  XCTestTempTests
-//
-//  Created by Roben Kleene on 5/2/17.
-//  Copyright © 2017 Roben Kleene. All rights reserved.
-//
+
 
 import XCTest
 import XCTestTemp
