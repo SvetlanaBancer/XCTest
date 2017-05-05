@@ -12,7 +12,7 @@ class XCTestTempTests: TemporaryDirectoryTestCase {
     let testFilename = "test.txt"
     let testFileContents = "test"
     
-    func testTemp1() {
+   // func testTemp() {
         let fileURL = urlForTemporaryItem(withPathComponent: testFilename)
         try! testFileContents.write(to: fileURL, atomically: false, encoding: String.Encoding.utf8)
         
